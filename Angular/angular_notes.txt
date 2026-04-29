@@ -1,0 +1,97 @@
+//angular is a framework which is developed by google.type script based web application framework
+//it is spa-single page application
+it requires node js,npm,angular
+
+ng serve used when app is created
+
+to run the code -ng serve
+
+ng serve -o
+
+ng common port number 4201
+
+
+difference between angular and react-
+
+package.json-configuration file.information about your project
+package-lock.json-configuration file contains detailed information
+
+angular .json-project configuration file it means style,build setting,entry file etc information
+style.css-used for global css
+gitignore-it is  the version control file
+
+editorconfig-vs code styling(color,font size)
+index.html-main html file which loads angular
+main.cs=entry ile of your application
+appconfig.js=app configuration file
+
+workde in src-this is the main file where we have to work.
+main route folder is a app folder
+app.html-html code 
+app.js=js logic
+
+variable declaration:-
+js and type script are similar nut slight difference is there
+
+type script:-
+variable declaration in type script:
+eg.let name:string="rutuja" or let name="rutuja"
+
+datatyps-primitive and non-primitive
+primitive:-1.let num=2//int or num:int=2
+2.let isOdd=yes//boolean or let isOdd:boolean=yes
+3.let data:any=null;
+
+
+how to create component in angular
+componet-eg.in youtube:-there are components like home,sunscription page each one has different html,css and js logic
+
+component is a UI block of structure when we create component,component creates 4 files html,css,ts(type script) and spec.ts
+command-ng generate component component-name or ng g component component-name
+ng-angular shortcut to run angular command
+after running ng g c admin in src command seeing 4 files
+admin.spec.ts-unit testing file
+admin.ts-logical file,admin.html-structure file,.js is javascript file
+
+Data Binding-connect UI to port
+two types of data binding:-1 one way 
+2 two way
+
+1 one way  //write in admin.html
+interpolation,property and event
+interpolation -syntax-{{value}}//declaring variable that showm to UI
+property-[property]="value"//html property-class,input types,id
+event-(event)="handler()"//eg button click,mouse click
+
+2 two way=[(ngmodel)]="value"//two way having one type ngmodel //write in admin.html
+
+Data Binding means connect UI to port
+
+
+ACTIVITY-what is ng if else,ng or how we can use for loop,switch cases and if-alse in angular
+
+There are 2 types in directives-
+1.structural directive 2.attribute directive
+Directives means think of directives like thinks of magic wands that can change your 
+web pages without rewritting it. 
+
+1.structural directive->consist of for loop,if-eles,switch case write like @if(condition)
+Chnage structure of your page like add,remove repeated things
+
+2.attribute means change of look and style-ngstyle 
+ Activity-1)study about structural directive with eg for,switch,if-else eg
+
+Modules-
+current version of Angular is version 21
+before angular 15 needs modules now a days we are using angular 21 version.So modules are optional
+we can now use stand alone components.
+
+Services & dependency injection-
+
+a services is like a helper class it is used to stored a data or share logic that many components are used.instead of writting
+same code to every component we used service file consisting common logic og code which is used in every file so import that only and import it in every file no need to rewrite the code.
+command- ng g s service-name
+student service spec.ts-no use
+write code in another file 
+
+Routing-navigation between one page to another

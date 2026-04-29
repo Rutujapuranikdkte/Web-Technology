@@ -1,0 +1,132 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Background */
+.app-container {
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.quiz-card {
+  background: white;
+  padding: 30px;
+  width: 350px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.quiz-card h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Progress */
+.progress {
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Question */
+.question {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Options */
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.option-btn {
+  background: #f1f1f1;
+  border: none;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.option-btn:hover {
+  background: #667eea;
+  color: white;
+}
+
+/* Result */
+.result-box h2 {
+  margin-bottom: 15px;
+}
+
+.score {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Button */
+.restart-btn {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.restart-btn:hover {
+  background: #5a67d8;
+}
+/* Login Box */
+.login-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-box input {
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.login-box button {
+  margin-top: 10px;
+  padding: 10px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background: #5a67d8;
+}
+
+/* Logout button */
+.logout-btn {
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  float: right;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.login-box p {
+  margin-top: 10px;
+  color: blue;
+}
